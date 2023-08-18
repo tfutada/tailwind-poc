@@ -542,6 +542,10 @@ video {
   margin-top: 2rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -565,9 +569,9 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-monmoth {
+  font-size: 10rem;
+  line-height: 1;
 }
 
 .font-bold {
