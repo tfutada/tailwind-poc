@@ -8,12 +8,12 @@
 </head>
 
 <body class="text-green-500 font-body">
-<div class="grid grid-cols-3">
-    <div>
+<div class="grid sm:grid-cols-3">
+    <div class="col-span-1">
         <nav>
             <div>
                 <h1 class="text-monmoth font-bold underline">
-                    <a href="/" class="text-green-500 sm:text-red-500">Food Ninja</a>
+                    <a href="/" class="hover:text-blue-700 text-green-500 sm:text-red-500">Food Ninja</a>
                 </h1>
             </div>
             <ul>
@@ -36,10 +36,10 @@
         </nav>
     </div> <!-- end nav -->
 
-    <main class="@container px-16 py-8 bg-gray-100">
-        <div class="flex justify-center">
-            <a href="#" class="text-primary">Log in</a>
-            <a href="#" class="text-secondary-100">Sign up</a>
+    <main class="@container col-span-2 px-16 py-8 bg-gray-100">
+        <div class="flex justify-center sm:justify-end">
+            <a href="#" class="text-primary btn border-primary sm:border-2">Log in</a>
+            <a href="#" class="text-primary btn ml-2 border-primary sm:border-2">Sign up</a>
         </div>
 
         <div class="flex items-center justify-center">
@@ -64,6 +64,11 @@
                         <span class="block text-grapy-500 text-sm">Recipe by Mario</span>
                     </div>
                     <div class="badge">
+                        <svg class="w-6 h-6 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0"
+                             stroke="currentColor">
+                            <path stroke-linecap="round"
+                                  d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25"/>
+                        </svg>
                         <span>25 mins</span>
                     </div>
                 </div>
@@ -101,6 +106,8 @@
                 </div>
             </div>
             <div class="mt-8">yyy</div>
+
+
 
         </div>
     </main>
